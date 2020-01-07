@@ -1,0 +1,32 @@
+@media (max-width: 920px) {
+    .p-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p-submain {
+        width: 580px;
+        height: auto;
+    }
+
+    .p-output {
+        width: 580px;
+    }
+
+    .p-input {
+        width: 580px;
+    }
+
+    h4 { text-align: center; }
+
+    .ul-content {
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding-bottom: 25px;
+    }
+}

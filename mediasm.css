@@ -1,0 +1,75 @@
+@media (max-width: 560px) {
+    #header {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    a {
+        padding-left: 70px;
+        padding-right: 70px;
+        text-align: center;
+    }
+    
+    .p-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p-submain {
+        width: 360px;
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .p-output {
+        width: 360px;
+        height: 300px;
+    }
+
+    .p-input {
+        width: 360px;
+        flex-direction: column;
+    }
+
+    .p-number {
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    label {
+        margin-bottom: 10px;
+    }
+
+    .p-btn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .p-result {
+        width: 275px;
+    }
+
+    textarea {
+        width: 275px;
+        height: 75px;
+        padding-top: 25px;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .ul-content {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+}
